@@ -91,7 +91,8 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  This Matlab code is presented for the educational purposes and its      %
 %  details can be found in "HoneyTop90: A 90-line MATLAB code for          %
-%  topology optimization using honeycomb tessellation"                     %
+%  topology optimization using honeycomb tessellation" Optimization and    %
+%  Engineering Journal, 2022, in press                                     %         
 %  Please write : prabhatk@iisc.ac.in or prabhatkumar.rns@gmail.com        %
 %  for any comments                                                        %
 %                                                                          %                                              
