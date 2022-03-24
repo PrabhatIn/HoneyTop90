@@ -1,6 +1,6 @@
 function HoneyGen(HNex,HNey,a)
 %% Example: generating mesh grid with a (edge-lenght) = 1 unit
-%HoneyGen(100,100,1)
+%HoneyGen(100,100,1);  HoneyGen(25,27,1); 
 %% ---Element connectivity, nodal coordinates--
 NstartVs = reshape(1:(1+2*HNex)*(1+HNey),1+2*HNex,1+HNey);
 DOFstartVs = reshape(2*NstartVs(1:end-1,1:end-1)-1,2*HNex*HNey,1);
