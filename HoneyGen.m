@@ -1,5 +1,5 @@
 function HoneyGen(HNex,HNey,a)
-%% ---Element connectivity, nodal coordinates, Finite element analysis preparation--
+%% ---Element connectivity, nodal coordinates--
 NstartVs = reshape(1:(1+2*HNex)*(1+HNey),1+2*HNex,1+HNey);
 DOFstartVs = reshape(2*NstartVs(1:end-1,1:end-1)-1,2*HNex*HNey,1);
 NodeDOFs = repmat(DOFstartVs,1,8) + repmat([2*(2*HNex+1) + [2 3 0 1] 0 1 2 3 ],2*HNex*HNey,1);
