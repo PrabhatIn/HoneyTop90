@@ -11,7 +11,7 @@ HoneyDOFs = [ActualDOFs(2:2:end,1:2), ActualDOFs(1:2:end,:), ActualDOFs(2:2:end,
 Ncyi = repmat(reshape(repmat([-0.25 0.25]',HNey+1,1),2,HNey+1)+reshape(1.5*sort(repmat((0:HNey)',2,1)),2,(HNey+1)),HNex+1,1);
 Ncyi(:,1:2:end) = flip(Ncyi(:,1:2:end));
 Ncyf = Ncyi(1:end-1,:); % final arrays containing y-coordinates
-HoneyNCO=(1/sqrt(3))*[repmat((0:cos(pi/6):2*HNex*cos(pi/6)),1,HNey+1)' Ncyf(:)];%node co
+HoneyNCO=(1)*[repmat((0:cos(pi/6):2*HNex*cos(pi/6)),1,HNey+1)' Ncyf(:)];%node co
 if(mod(HNey,2)==0)
  HoneyDOFs(end:-1:end-(HNex)+2,1:6) = HoneyDOFs(end:-1:end-(HNex)+2,1:6)-2; % Updating
  HoneyNCO([(2*HNex+1)*HNey+1;(2*HNex+1)*(HNey+1)],:) = []; % Removing hangining nodes
@@ -40,7 +40,7 @@ end
 Cxx = repmat([sqrt(3)/2*(1:2:2*HNex-1) sqrt(3)*(1:1:HNex-1)],1,ceil(HNey/2));
 Cyy= (repmat(3/4,HNex,HNey) + repmat(3/2*(0:HNey-1),HNex,1));
 Cyy(HNex+1:2*HNex:length(Cyy(:))) = [];
-ct = [Cxx(1:length(Cyy))' Cyy']*(1/sqrt(3));             % Centre coordinates
+ct = [Cxx(1:length(Cyy))' Cyy']*(1);             % Centre coordinates
 DD = cell(Nelem,1);                                      % Initializing 
 for j = 1:Nelem
     Cent_dist = sqrt((ct(j,1)-ct(:,1)).^2+((ct(j,2)-ct(:,2)).^2));
@@ -93,7 +93,7 @@ end
 %  details can be found in "HoneyTop90: A 90-line MATLAB code for          %
 %  topology optimization using honeycomb tessellation" Optimization and    %
 %  Engineering Journal, 2022, in press                                     %         
-%  Please write : prabhatk@iisc.ac.in or prabhatkumar.rns@gmail.com        %
+%  Please write : pkumar@mae.iith.ac.in or prabhatkumar.rns@gmail.com        %
 %  for any comments                                                        %
 %                                                                          %                                              
 %  Disclaimer:                                                             %
