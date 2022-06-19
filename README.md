@@ -4,4 +4,4 @@ The source code (HoneyTop90.m) provides an efficient, simple and compact way to 
 # About
 Author: Prabhat Kumar, Department of Mechanical and Aerospace Engineering, Indian Institute of Technology Hyderabad, India. Please send your comments and suggestions to prabhatkumar.rns@gmail.com or pkumar@mae.iith.ac.in or prabhatk@iisc.ac.in
 # How to use
-See the paper "HoneyTop90: A 90-line MATLAB code for topology optimization using honeycomb tessellation", Optimization and Engineering Journal, 2022 
+See the paper P. Kumar (2022) "HoneyTop90: A 90-line MATLAB code for topology optimization using honeycomb tessellation", Optimization and Engineering Journal, 1-18, 2022 
