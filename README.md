@@ -7,7 +7,7 @@ Author: Prabhat Kumar, Department of Mechanical and Aerospace Engineering, India
 See the paper: P. Kumar (2022) [HoneyTop90: A 90-line MATLAB code for topology optimization using honeycomb tessellation", Optimization and Engineering Journal, 1-18, 2022](https://link.springer.com/article/10.1007/s11081-022-09715-6) 
 # Citation
 If you have used either HoneyTop90 or HoneyMesher code, kindly cite the paper.:
-'''
+```
 @article{kumar2022honeytop90,
 	title={{HoneyTop90}: A 90-line {MATLAB} code for topology optimization using honeycomb tessellation},
 	author={Kumar, Prabhat},
@@ -18,4 +18,4 @@ If you have used either HoneyTop90 or HoneyMesher code, kindly cite the paper.:
   url= {https://link.springer.com/article/10.1007/s11081-022-09715-6},
 	publisher={Springer}
 }
-'''
+```
