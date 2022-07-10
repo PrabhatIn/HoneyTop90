@@ -13,7 +13,7 @@ If you have used either `HoneyTop90.m` or `HoneyMesher.m` code, kindly cite the 
 	author={Kumar, Prabhat},
 	journal={Optimization and Engineering},
 	year={2022},
-	pages = {1-18},
+	pages = {1-28},
         doi= {10.1007/s11081-022-09715-6},
         url= {https://link.springer.com/article/10.1007/s11081-022-09715-6},
 	publisher={Springer}
