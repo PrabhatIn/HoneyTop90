@@ -4,7 +4,7 @@ The source code (`HoneyTop90.m`) provides an efficient, simple and compact way t
 ## About
 Author: Prabhat Kumar, Department of Mechanical and Aerospace Engineering, Indian Institute of Technology Hyderabad, India. Please send your comments and suggestions to  pkumar@mae.iith.ac.in or prabhatkumar.rns@gmail.com
 ## How to use
-See the paper: P. Kumar (2022) [HoneyTop90: A 90-line MATLAB code for topology optimization using honeycomb tessellation", Optimization and Engineering Journal, 1-18, 2022](https://link.springer.com/article/10.1007/s11081-022-09715-6) 
+Please see the paper: P. Kumar (2022) [HoneyTop90: A 90-line MATLAB code for topology optimization using honeycomb tessellation", Optimization and Engineering Journal, 1-18, 2022](https://link.springer.com/article/10.1007/s11081-022-09715-6) 
 ## Citation
 If you have used either `HoneyTop90.m` or `HoneyMesher.m` code, kindly cite the paper.:
 ```
