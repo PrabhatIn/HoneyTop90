@@ -9,7 +9,7 @@ Please see the paper: P. Kumar (2022) [HoneyTop90: A 90-line MATLAB code for top
 For citing the paper, please use the following bibtex format:
 ```
 @article{kumar2023honeytop90,
-  title={HoneyTop90: A 90-line MATLAB code for topology optimization using honeycomb tessellation},
+  title={{HoneyTop90}: A 90-line {MATLAB} code for topology optimization using honeycomb tessellation},
   author={Kumar, Prabhat},
   journal={Optimization and Engineering},
   volume={24},
