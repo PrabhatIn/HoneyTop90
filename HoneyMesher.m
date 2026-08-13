@@ -9,7 +9,7 @@ function HoneyMesher(HNex,HNey,a)
 %HNey: # of elements in y-direction
 % a: edge length
 %For Example:
-%HoneyGen(100,100,1);  HoneyGen(25,27,2); 
+%HoneyMesher(100,100,1);  HoneyMesher(25,27,2); 
 %% ---Element connectivity, nodal coordinates--
 NstartVs = reshape(1:(1+2*HNex)*(1+HNey),1+2*HNex,1+HNey);
 DOFstartVs = reshape(2*NstartVs(1:end-1,1:end-1)-1,2*HNex*HNey,1);
