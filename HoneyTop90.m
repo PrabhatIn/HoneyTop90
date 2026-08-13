@@ -81,7 +81,7 @@ while (change > 0.01 && loop < maxiter)
     x = max(0,max(xLow,min(1,min(xUpp,OcC/lmid))));
     if mean(x)>volfrac, inL(1) = lmid; else, inL(2) = lmid; end 
   end
-  if ft == 1 || ft ==0, xPhys = x; elseif ft == 2, xPhys = HHs'*x; end
+  if ft == 1 || ft ==0, xPhys = x; elseif ft == 2, xPhys = HHs*x; end
   change = max(abs(xOpt-x));
   %% ---------- Results printing ----------------------------
   fprintf(' It.:%5i Obj.:%11.4f Vol.:%7.3f ch.:%7.3f\n',loop,c, mean(xPhys),change);
