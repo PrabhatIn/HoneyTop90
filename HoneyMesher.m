@@ -22,7 +22,7 @@ Ncyf = Ncyi(1:end-1,:); % final arrays containing y-coordinates
 HoneyNCO = a*[repmat((0:cos(pi/6):2*HNex*cos(pi/6)),1,HNey+1)' Ncyf(:)];%node co
 if(mod(HNey,2)==0)
  HoneyDOFs(end:-1:end-(HNex)+2,1:6) = HoneyDOFs(end:-1:end-(HNex)+2,1:6)-2; % Updating
- HoneyNCO([(2*HNex+1)*HNey+1;(2*HNex+1)*(HNey+1)],:) = []; % Removing hangining nodes
+ HoneyNCO([(2*HNex+1)*HNey+1;(2*HNex+1)*(HNey+1)],:) = []; % Removing hanging nodes
 end
 HoneyElem = HoneyDOFs(:,2:2:end)/2;% element connectivity matrix
 %% plotting the mesh
